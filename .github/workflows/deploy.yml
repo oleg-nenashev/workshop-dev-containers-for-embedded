@@ -54,12 +54,20 @@ jobs:
             push: always
             runCmd: |
               mkdocs build
+            env: |
+              GENERATE_PDF=true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
           name: github-pages
           path: "_site/"
+    
+      - name: Upload the PDF
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: pdf-version
+          path: "_site/pdf/document.pdf"
 
   # Deployment job
   deploy:
