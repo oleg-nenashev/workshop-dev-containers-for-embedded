@@ -2,23 +2,25 @@
 
 ## Abstract
 
-Embedded development and QA are entering a new era, enabled by Cloud Development Environments (CDEs) such as GitHub Codespaces or Devcontainers, which allow fully configured workspaces to run on laptops, Kubernetes clusters, or public clouds.
-Containers and VMs, often managed with tools like KubeVirt and QEMU, and wrapped by frameworks like Testcontainers, enable scalable, hardware-aware test setups that support HIL testing, firmware validation, and system modeling.
-It might sound like a miracle, but it’s actually possible with modern tech stacks!
+Embedded development and QA are entering a new era, enabled by Cloud Development Environments (CDEs) such as GitHub Codespaces or Devcontainers,
+which allow fully configured workspaces to run on laptops, Kubernetes clusters, or public clouds.
+Containers and VMs, often managed with tools like KubeVirt and QEMU and wrapped by frameworks like Testcontainers, enable scalable, hardware-aware test setups for HIL testing, firmware validation, and system modeling.
+It might sound like a miracle, but modern tech stacks make it possible!
 
-During this workshop, we will go through building a containerized developer environment for a robotics project using the open-source ROS2 stack (C++/Python, CMake, custom build tools, Gazebo, etc.), or by using another example nominated by the audience.
-Step by step, you will learn to define and customize [Dev Containers](https://devcontainers.github.io/) for their technology stacks, 
-adapt IDEs for embedded workflows, and package the full environment for sharing across teams and reuse in CI/CD pipelines.
+In this workshop, we'll build a containerized developer environment for a robotics project using the open-source ROS2 stack (C++/Python, CMake, custom build tools, Gazebo, etc.), or another audience-nominated example.
+Step by step, you will learn to define and customize Dev Containers for their technology stacks, adapt IDEs for embedded workflows,
+and package the full environment for sharing across teams and reuse in CI/CD pipelines.
 
-We will also explore how these same environments can be moved beyond the laptop and executed in cloud-based development platforms such as GitHub Codespaces and similar providers.
-In addition, the workshop will demonstrate how tools such as Testcontainers and API-mocking frameworks can support integration testing even in embedded projects, where external services, simulated devices, and distributed components increasingly play an important role.
-Last but not least, we will look into leveraging the local AI capabilities of Large and Small Language Models in our developer environments and tests, with Dev Containers features and Testcontainers extensions.
+We will also explore how to move these environments beyond the laptop and run them on cloud-based development platforms such as GitHub Codespaces and similar providers. The workshop will also show how tools such as Testcontainers and API-mocking frameworks can support integration testing,
+even in embedded projects where external services, simulated devices, and distributed components increasingly play an important role.
+Last but not least, we'll explore leveraging the local AI capabilities of large and Small Language Models in our developer environments and tests, using Dev Containers features and Testcontainers extensions.
 
-By the end of the session, participants will have a clear understanding of how to virtualize their IDEs, standardize developer onboarding, and create reusable development environments that connect local workstations, cloud platforms, and automated pipelines.
+By the end of the session, participants will understand how to virtualize their IDEs, standardize developer onboarding,
+and create reusable development environments that connect local workstations, cloud platforms, and automated pipelines.
 
 ## Prerequisites
 
-* Bring-your-own laptop: Linux, MacOS or Windows
+* Bring-your-own laptop: Linux, macOS, or Windows
 * Pre-installed tools
   * Visual Studio Code (VS Code)
   * Installed Docker engine: Docker Desktop or Podman
@@ -44,7 +46,7 @@ By the end of the session, participants will have a clear understanding of how t
 
 ### III. Optional parts
 
-The following parts can be optionally chosen by the audience,
+The following parts can be optionally chosen by the audience
 if the time allows and in any order: 
 
 * [Using Devcontainers in CI](./10-ci-integrations/README.md)
@@ -55,7 +57,7 @@ if the time allows and in any order:
 
 ## Before the workshop starts
 
-The workshop is quite heavy about the network traffic due to image pulls and
+The workshop is quite heavy on network traffic due to image pulls and
 dependency installations from package managers.
 To make it faster, run the following commands:
 
@@ -71,7 +73,7 @@ docker pull postgres:latest
 ## References
 
 - [Slides for the workshop](https://docs.google.com/presentation/d/1-OZfkv6IKM6HeoPSos_8KJshzb0GQpcYABAalStI9ZU/edit?usp=sharing) - slides for this workshop.
-- [Full project](./full-project/) - something you can start without going through the workshop stages. It can be opened in an IDE and you can follow it
+- [Full project](./full-project/) - something you can start without going through the workshop stages. It can be opened in an IDE, and you can follow it
 - [Slides: 
 Cloud and Hybrid Developer Environments - how virtualization transforms your IDEs for embedded projects](https://speakerdeck.com/onenashev/cloud-and-hybrid-developer-environments-how-virtualization-transforms-your-ides-for-embedded-projects) - my original presentation on Dev Containers from QA&Test 2025
 
