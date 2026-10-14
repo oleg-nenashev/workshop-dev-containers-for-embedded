@@ -23,28 +23,32 @@ with a few extra modifications for demo purposes.
 ## Practice - Your first Dev Containers project
 
 Here, you will create a new project from scratch, using a sample project in [project-empty](./project-empty/) as an example.
-A target state after all the listed changes in shown in [project-final](./project-final/).
+A target state after all the listed changes is shown in [project-final](./project-final/).
 
 ## 1. Initializing Dev Containers with a template
 
 0. If you have not done it already, fork the [workshop repository](https://github.com/oleg-nenashev/cde-for-embedded-workshop) on GitHub
    and clone it to your machine.
 1. Create a new project directory and open it as a project in VS Code.
-2. Create a new Python project, add a minimum Dev Container using the [Python template](https://github.com/devcontainers/templates/blob/main/src/python/devcontainer-template.json).
+2. Create a new Python project, and add a minimum Dev Container using the [Python template](https://github.com/devcontainers/templates/blob/main/src/python/devcontainer-template.json).
    For that, click the _Dev Container_ icon, choose "New Dev Container..." and select Python 3
-3. Open the project in the Dev Container.
+
+> **WARNING:** This template does not work when using a direct tool invocation in Windows Subsystem for Linux.
+> If you experience this issue, you can initialize the `devcontainer.json` file using the one from [project-final](./project-final/.devcontainer/devcontainer.json)
+   
+4. Open the project in the Dev Container.
    Observe how the environment is built and exposed to the editor.
 6. Run the sample `hello.py` application.
 7. Follow the slides for a deeper dive into the Dev Container features. We will try them one by one
 
 ## 2. Dev Containers Features
 
-[Dev Container Features](https://containers.dev/features) is an established way of adding add-ons to the Dev Containers, without modifying the base images. 
-In many cases, it helps to avoid custom configurations and custom images if you need a simple modification of the image.
+[Dev Container Features](https://containers.dev/features) is an established way to add add-ons to Dev Containers without modifying the base images. 
+In many cases, it helps you avoid custom configurations and custom images when you need a simple image modification.
 
-Specifically for Python tools, where most of tools are available through PIP, it has marginal value.
+For Python tools, where most are available through PIP, it has marginal value.
 However, you can still use it to install external tools.
-For example, for Debian based images you can use [apt packages](https://github.com/devcontainers-extra/features/tree/main/src/apt-packages).
+For example, for Debian-based images, you can use [apt packages](https://github.com/devcontainers-extra/features/tree/main/src/apt-packages).
 There are also [Nix](../12-nix-in-devcontainers/) integrations.
 
 1. Review [Dev Container Features](https://containers.dev/features) and explore the features available for Python projects.
