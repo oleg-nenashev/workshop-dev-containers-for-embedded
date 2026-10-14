@@ -6,7 +6,12 @@
         "dockerfile": "Dockerfile"
     },
     "features": {
-        "ghcr.io/devcontainers/features/python:1": {}
+        "ghcr.io/devcontainers/features/python:1": {},
+        "ghcr.io/devcontainers/features/desktop-lite:1": {
+            "password": "vscode",
+            "webPort": "6080",
+            "vncPort": "5901"
+        }
     },
     "customizations": {
         "vscode": {
