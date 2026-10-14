@@ -20,6 +20,8 @@ DartConfiguration.tcl
 build/
 /_deps
 /lib
+**/install/**
+**/log/**
 
 # Website
 .cache

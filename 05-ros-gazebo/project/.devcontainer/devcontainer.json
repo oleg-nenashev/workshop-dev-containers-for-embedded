@@ -33,8 +33,7 @@
     "containerEnv": {
         "ROS_DOMAIN_ID": "42",
         "ROS_VERSION": "kilted",
-        // TODO: Update to Jetty
-        "GZ_VERSION": "harmonic"
+        "GZ_VERSION": "ionic"
     },
     "runArgs": [
         "--net=host",

@@ -47,7 +47,7 @@ TODO: Summary
    Note: If you're using a specific and unsupported Gazebo version with ROS 2, you might need to set the `GZ_VERSION` environment variable, for example:
 
     ```bash
-    export GZ_VERSION=harmonic
+    export GZ_VERSION=ionic
     ```
     Also need to build [`ros_gz`](https://github.com/gazebosim/ros_gz) and [`sdformat_urdf`](https://github.com/ros/sdformat_urdf) from source if binaries are not available for your chosen combination.
 
@@ -64,8 +64,14 @@ TODO: Summary
     source /opt/ros/$ROS_DISTRO/setup.bash
     sudo rosdep init
     rosdep update
-    rosdep install --from-paths src --ignore-src -r -i -y --rosdistro <ROS_DISTRO>
+    rosdep install --from-paths src --ignore-src -r -i -y --rosdistro kilted
     ```
+
+1. Install Gazebo dependencies
+
+```
+
+```
 
 ### Dev Containers
 
