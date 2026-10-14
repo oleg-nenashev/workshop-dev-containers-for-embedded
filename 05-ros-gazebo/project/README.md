@@ -101,7 +101,7 @@ For more details about the container internals, see the [Dev Container Doc](./.d
 1. Source the workspace
 
     ```bash
-    . ${REPO_ROOT}/install/setup.sh
+    source ./install/setup.sh
     ```
 
 1. Launch the simulation
