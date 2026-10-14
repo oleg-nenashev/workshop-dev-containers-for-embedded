@@ -1,6 +1,14 @@
 {
     "name": "Material for MkDocs",
     "dockerFile": "Dockerfile",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+        "version": "latest"
+      }, 
+      "ghcr.io/devcontainers-extra/features/devcontainers-cli:1": {
+        "version": "latest"
+      }
+    },
     "customizations": {
       "vscode": {
         // Set *default* container specific settings.json values on container create.
@@ -19,7 +27,9 @@
         ],
       },
     },
-    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    
+    // Use 'forwardPorts' to make a list of ports inside the container 
+    // available locally.
     "forwardPorts": [
       8000
     ],
