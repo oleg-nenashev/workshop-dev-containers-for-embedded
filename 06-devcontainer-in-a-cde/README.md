@@ -28,6 +28,10 @@ This is what we will do in this section.
 
 5. Try building the project and running tests.
 
+Note that the first setup may be very slow, especially for Dev Containers with custom images (like this workshop repository).
+It is generally recommended to use the [GitHub Codespaces prebuilds](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/about-github-codespaces-prebuilds),
+or to cache the Dev Container image.
+
 ## When completed
 
 Return to the [main workshop README](../README.md).

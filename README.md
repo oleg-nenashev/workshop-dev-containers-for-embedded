@@ -1,5 +1,7 @@
 # Workshop - Container Developer Environments. Virtualizing your IDEs for embedded projects
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oleg-nenashev/workshop-dev-containers-for-embedded)
+
 ## Abstract
 
 Embedded development and QA are entering a new era, enabled by Cloud Development Environments (CDEs) such as GitHub Codespaces or Devcontainers,

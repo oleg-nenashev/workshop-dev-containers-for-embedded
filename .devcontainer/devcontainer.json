@@ -26,7 +26,14 @@
           "oderwat.indent-rainbow",
           "msjsdiag.debugger-for-chrome"
         ],
+        
       },
+      "codespaces": {
+		    "openFiles": [
+			     "README.md",
+			     "CONTRIBUTING.md"
+		    ]
+	    }
     },
     
     // Use 'forwardPorts' to make a list of ports inside the container 
