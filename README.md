@@ -1,6 +1,7 @@
 # Workshop - Container Developer Environments. Virtualizing your IDEs for embedded projects
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/oleg-nenashev/workshop-dev-containers-for-embedded)
+[![Slides](https://img.shields.io/badge/slides-published-brightgreen?style=for-the-badge)](https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/)
 
 ## Abstract
 
@@ -72,9 +73,25 @@ docker pull ros:kilted-ros-base-noble
 docker pull postgres:latest
 ```
 
+## Slides
+
+Slides are [here](https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/):
+
+<div class="deck-embed js-deck-embed" style="aspect-ratio:1024/576;" data-ratio="1.7777777777777777" data-state="processed">
+    <div id="talk_91b3d075a1b94c758d3a24364d97efcd" data-poll-url="https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/status">
+      <div class="deck-processing">
+        <h1 class="m-0">Processing</h1>
+        <div class="lead mb-4 js-process-status">Processing your PDF into slides…</div>
+        <div class="deck-processing-progress">
+          <div class="deck-processing-bar js-process-progress" style="width:0%"></div>
+        </div>
+      </div>
+</div></div>
+
+
 ## References
 
-- [Slides for the workshop](https://docs.google.com/presentation/d/1-OZfkv6IKM6HeoPSos_8KJshzb0GQpcYABAalStI9ZU/edit?usp=sharing) - slides for this workshop.
+- [Slides for the workshop](https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/) - slides for this workshop.
 - [Full project](./full-project/) - something you can start without going through the workshop stages. It can be opened in an IDE, and you can follow it
 - [Slides: 
 Cloud and Hybrid Developer Environments - how virtualization transforms your IDEs for embedded projects](https://speakerdeck.com/onenashev/cloud-and-hybrid-developer-environments-how-virtualization-transforms-your-ides-for-embedded-projects) - my original presentation on Dev Containers from QA&Test 2025
