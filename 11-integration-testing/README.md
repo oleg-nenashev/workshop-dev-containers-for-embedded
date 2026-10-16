@@ -11,11 +11,11 @@ This section covers techniques for testing systems that depend on external servi
 ## Suggested activities
 
 1. Review the key principles with the instructor.
-2. Test out the Testcontainers Native demo in [cpp-project](./cpp-project/).
+2. Test out the Testcontainers Native demo in [cpp-project](./cpp-project/). Open it in Dev Containers and follow the steps documented in the repository.
 
 ## Expected outcome
 
-You should have a practical understanding of how integration testing can be made more reliable with containerized infrastructure.
+You should have a practical understanding of how containerized infrastructure can make integration testing more reliable.
 
 ## When completed
 
