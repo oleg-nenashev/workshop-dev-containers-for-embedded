@@ -77,16 +77,7 @@ docker pull postgres:latest
 
 Slides are [here](https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/):
 
-<div class="deck-embed js-deck-embed" style="aspect-ratio:1024/576;" data-ratio="1.7777777777777777" data-state="processed">
-    <div id="talk_91b3d075a1b94c758d3a24364d97efcd" data-poll-url="https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects/status">
-      <div class="deck-processing">
-        <h1 class="m-0">Processing</h1>
-        <div class="lead mb-4 js-process-status">Processing your PDF into slides…</div>
-        <div class="deck-processing-progress">
-          <div class="deck-processing-bar js-process-progress" style="width:0%"></div>
-        </div>
-      </div>
-</div></div>
+<iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/91b3d075a1b94c758d3a24364d97efcd" title="Workshop - Container Developer Environments. Virtualizing your IDEs for embedded projects" allowfullscreen="true" allow="web-share" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 100%; height: auto; aspect-ratio: 560 / 315;" data-ratio="1.7777777777777777"></iframe>
 
 
 ## References
